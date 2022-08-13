@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.first-input {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.table {
+    height: 95vh;
+    width: 90vw;
+    background-color: green;
+    border-radius: 40%;
+}
+
+.sb-chip {
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+}
+
+.bb-chip {
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 60%;
+    left: 25%;
+}
+
+.bn-chip {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 15%;
+    left: 47%;
+}
+
+.seat-1 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 25%;
+    left: 1%;
+}
+
+.seat-2 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 55%;
+    left: 1%;
+}
+
+.seat-3 {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+}
+
