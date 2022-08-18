@@ -3,13 +3,14 @@
     margin: 0;
 }
 
-.background {
+.floor {
     width: 100vw;
     height: 100vh;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0;
 }
 
 .container {
@@ -25,11 +26,27 @@
     justify-content: space-evenly;
 }
 
+.table-felt{
+    background-color: green;
+    border-radius: 40%;
+    width: 85vw;
+    height: 90vh;
+    position: absolute;
+    z-index: 2;
+}
+
+.table-rim{
+    background-color: rgb(36, 36, 36);
+    border-radius: 40%;
+    width: 93vw;
+    height: 94vh;
+    position: absolute;
+    z-index: 1;
+}
+
 .table {
     width: 100vw;
     height: 100vh;
-    background-color: green;
-    border-radius: 40%;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
@@ -59,13 +76,20 @@
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    z-index: 1;
+    z-index: 10;
     
 }
 
 .player-action {
     position: absolute;
-    z-index: 2;
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    z-index: 10;
     background-color: grey;
     top: 60%;
 }
@@ -116,54 +140,60 @@
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-1;
     justify-self: start;
+    z-index: 2;
 }
 
 .seat-2 {
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-2;
     justify-self: start;
+    z-index: 2;
 }
 
 .seat-3 {
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-3;
     align-self: start;
+    z-index: 2;
 }
 
 .seat-4 {
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-4;
     justify-self: end;
+    z-index: 2;
 }
 
 .seat-5 {
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-5;
     justify-self: end;
+    z-index: 2;
 }
 
 .seat-6 {
     height: 100px;
     width: 100px;
     background-color: black;
-    border-radius: 40%;
+    border-radius: 50%;
     grid-area: seat-6;
     align-self: end;
+    z-index: 2;
 }
 
 /*
