@@ -26,6 +26,36 @@
     justify-content: space-evenly;
 }
 
+.players-box input[type=number] {
+    width: 50px;
+}
+
+.players-box {
+    display: flex;
+    justify-content: center;
+}
+
+.blinds-box {
+    display: flex;
+    justify-content: center;
+}
+
+.sb {
+    padding: 5px;
+}
+
+.sb input[type=number] {
+    width: 50px;
+}
+
+.bb {
+    padding: 5px;
+}
+
+.bb input[type=number] {
+    width: 50px;
+}
+
 .table-felt{
     background-color: green;
     border-radius: 40%;
@@ -61,7 +91,7 @@
 .table-info {
     grid-area: seat-3;
     color: white;
-    z-index: 1;
+    z-index: 2;
     align-self: end;
     text-align: center;
 }

@@ -1,0 +1,27 @@
+{
+  "name": "poker-hand-saver",
+  "version": "1.0.0",
+  "description": "An app for saving poker hands easily",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackmacaa/poker-hand-saver.git"
+  },
+  "author": "Jack Mac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackmacaa/poker-hand-saver/issues"
+  },
+  "homepage": "https://github.com/jackmacaa/poker-hand-saver#readme",
+  "devDependencies": {
+    "eslint": "^8.23.x",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.x"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
