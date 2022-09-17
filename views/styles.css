@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.home-page{
+    background-color: yellow;
+}
+
 .floor {
     width: 100vw;
     height: 100vh;
