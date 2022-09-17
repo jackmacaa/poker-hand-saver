@@ -12,6 +12,8 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.get("/hand-table", (req: Request, res: Response) => {
+    console.log(req);
+    
     res.sendFile(`${__dirname}/public/hand-table.html`);
 });
 

@@ -10,10 +10,10 @@ const port = 3000;
 app.use(body_parser_1.default.urlencoded({ extended: true }));
 app.use(express_1.default.static(__dirname + "/public"));
 app.get("/", (req, res) => {
-    console.log(__dirname);
     res.sendFile(`${__dirname}/public/index.html`);
 });
 app.get("/hand-table", (req, res) => {
+    console.log(req);
     res.sendFile(`${__dirname}/public/hand-table.html`);
 });
 app.get("/hand-save", (req, res) => {
