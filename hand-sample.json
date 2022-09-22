@@ -1,0 +1,53 @@
+{
+  "name": "Casino cash game vs maniac",
+  "id": 1,
+  "noPlayers": 9,
+  "sb": 1,
+  "bb": 3,
+  "players": [
+    {
+      "name": "jack",
+      "position": "bn",
+      "stackSize": 300
+    },
+    {
+      "name": "villian",
+      "position": "bb",
+      "stackSize": 300
+    }
+  ],
+  "turns": {
+    "preFlop": {
+      "action": {
+        "player": "string",
+        "check": "string",
+        "fold": "string",
+        "bet": 1.1
+      }
+    },
+    "flop": {
+      "action": {
+        "player": "string",
+        "check": "string",
+        "fold": "string",
+        "bet": 1.1
+      }
+    },
+    "turn": {
+      "action": {
+        "player": "string",
+        "check": "string",
+        "fold": "string",
+        "bet": 1.1
+      }
+    },
+    "river": {
+      "action": {
+        "player": "string",
+        "check": "string",
+        "fold": "string",
+        "bet": 1.1
+      }
+    }
+  }
+}
