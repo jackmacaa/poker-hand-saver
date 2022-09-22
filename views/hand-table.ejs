@@ -36,7 +36,7 @@
           </div>
         </div>
 
-        <div class="player-action">
+        <div class="player-action hidden">
           <div class="box">
             <button>Check</button>
           </div>
@@ -51,16 +51,11 @@
         </div>
 
         <div class="sb-chip">SB</div>
-        <div class="seat-1"></div>
-
         <div class="bb-chip">BB</div>
-        <div class="seat-2"></div>
-
         <div class="bn-chip">BN</div>
-        <div class="seat-3"></div>
-        <div class="seat-4"></div>
-        <div class="seat-5"></div>
-        <div class="seat-6"></div>
+        <% for(let i = 0; i < data['number-of-players']; i++) { %> 
+              <div class="seat-<%= i+1 %>"></div> 
+         <% } %>    
       </div>
     </div>
   </body>

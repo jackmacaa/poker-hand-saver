@@ -16,16 +16,19 @@
             type="number"
             id="number-of-players"
             name="number-of-players"
+            min="1"
+            max="10"
+            value="6"
           />
         </div>
         <div class="blinds-box">
           <div class="sb">
             <label for="sb">SB:</label>
-            <input type="number" id="sb" name="sb" />
+            <input type="number" id="sb" name="sb" min="1" value="1"/>
           </div>
           <div class="bb">
             <label for="BB">BB:</label>
-            <input type="number" id="bb" name="bb" />
+            <input type="number" id="bb" name="bb" min="1" value="2"/>
           </div>
         </div>
         <input type="submit" value="Continue" />
