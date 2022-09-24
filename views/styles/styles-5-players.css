@@ -144,7 +144,7 @@
   font-size: 18px;
   background-color: yellow;
   border-radius: 40%;
-  grid-area: seat-2;
+  grid-area: seat-1;
   z-index: 2;
 }
 
@@ -156,7 +156,7 @@
   font-size: 18px;
   background-color: orange;
   border-radius: 40%;
-  grid-area: seat-4;
+  grid-area: seat-2;
   z-index: 2;
 }
 
@@ -178,7 +178,7 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
-  grid-area: seat-2;
+  grid-area: seat-1;
   justify-self: start;
   z-index: 2;
 }
@@ -188,12 +188,32 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
+  grid-area: seat-2;
+  justify-self: start;
+  z-index: 2;
+}
+
+.seat-3 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50%;
   grid-area: seat-4;
   justify-self: end;
   z-index: 2;
 }
 
-.seat-3 {
+.seat-4 {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 50%;
+  grid-area: seat-5;
+  justify-self: end;
+  z-index: 2;
+}
+
+.seat-5 {
   height: 100px;
   width: 100px;
   background-color: black;

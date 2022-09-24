@@ -145,6 +145,7 @@
   background-color: yellow;
   border-radius: 40%;
   grid-area: seat-1;
+  align-self: start;
   z-index: 2;
 }
 
@@ -180,6 +181,7 @@
   border-radius: 50%;
   grid-area: seat-1;
   justify-self: start;
+  align-self: start;
   z-index: 2;
 }
 
@@ -200,6 +202,7 @@
   border-radius: 50%;
   grid-area: seat-5;
   justify-self: end;
+  align-self: start;
   z-index: 2;
 }
 
