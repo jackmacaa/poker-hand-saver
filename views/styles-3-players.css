@@ -198,36 +198,6 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
-  grid-area: seat-3;
-  align-self: start;
-  z-index: 2;
-}
-
-.seat-4 {
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  border-radius: 50%;
-  grid-area: seat-4;
-  justify-self: end;
-  z-index: 2;
-}
-
-.seat-5 {
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  border-radius: 50%;
-  grid-area: seat-5;
-  justify-self: end;
-  z-index: 2;
-}
-
-.seat-6 {
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  border-radius: 50%;
   grid-area: seat-6;
   align-self: end;
   z-index: 2;

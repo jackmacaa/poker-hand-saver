@@ -156,7 +156,7 @@
   font-size: 18px;
   background-color: orange;
   border-radius: 40%;
-  grid-area: seat-2;
+  grid-area: seat-3;
   z-index: 2;
 }
 
@@ -188,8 +188,8 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
-  grid-area: seat-2;
-  justify-self: start;
+  grid-area: seat-3;
+  align-self: start;
   z-index: 2;
 }
 
@@ -198,8 +198,8 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
-  grid-area: seat-3;
-  align-self: start;
+  grid-area: seat-5;
+  justify-self: end;
   z-index: 2;
 }
 
@@ -208,8 +208,8 @@
   width: 100px;
   background-color: black;
   border-radius: 50%;
-  grid-area: seat-4;
-  justify-self: end;
+  grid-area: seat-6;
+  align-self: end;
   z-index: 2;
 }
 
