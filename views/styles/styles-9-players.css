@@ -100,6 +100,7 @@
   color: white;
   z-index: 2;
   justify-self: center;
+  align-self: end;
   text-align: center;
 }
 
@@ -107,7 +108,115 @@
   visibility: hidden;
 }
 
-.player-input {
+.highlight {
+  border: 10px solid white;
+}
+
+.player-input-1 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-2 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-3 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-4 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-5 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-6 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-7 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-8 {
+  position: absolute;
+  background-color: grey;
+  text-align: center;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 10;
+}
+
+.player-input-9 {
   position: absolute;
   background-color: grey;
   text-align: center;
@@ -177,8 +286,8 @@
 }
 
 .seat-1 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-1;
@@ -187,8 +296,8 @@
 }
 
 .seat-2 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-2;
@@ -197,8 +306,8 @@
 }
 
 .seat-3 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-3;
@@ -207,8 +316,8 @@
 }
 
 .seat-4 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-4;
@@ -217,8 +326,8 @@
 }
 
 .seat-5 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-5;
@@ -227,8 +336,8 @@
 }
 
 .seat-6 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-6;
@@ -237,8 +346,8 @@
 }
 
 .seat-7 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-7;
@@ -247,8 +356,8 @@
 }
 
 .seat-8 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-8;
@@ -257,8 +366,8 @@
 }
 
 .seat-9 {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   background-color: black;
   border-radius: 50%;
   grid-area: seat-9;

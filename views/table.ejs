@@ -8,7 +8,10 @@
           <div class="blinds">SB: <%= data.sb %> / BB: <%= data.bb %></div>
         </div>
 
-        <div class="player-input">
+        
+        <% for(let i = 0; i < data['number-of-players']; i++) { %> 
+        <div class="player-input-<%= i+1 %> hidden" id="player-input-<%= i+1 %>">
+            <div class="box"><h2>Player <%= i+1 %> </h2></div>
           <div class="box">
             <label for="player-name">Player Name:</label>
             <input type="text" name="player-name" id="player-name" />
@@ -25,19 +28,27 @@
             <label for="player-cards">Cards:</label>
             <input type="text" name="player-cards" id="player-cards" />
           </div>
+          <button id="player-save-<%= i+1 %>">Save</button>
         </div>
+        <% } %>  
 
-        <div class="player-action">
+        <div class="player-action hidden">
           <div class="box">
-            <button>Check</button>
+            <label for="check">Check</label>
+            <input type="radio" id="check" name="players-action" value="check">
           </div>
           <div class="box">
-            <button>Bet</button>
-            <label for="player-stack-size">Bet Size:</label>
+            <label for="fold">Fold</label>
+            <input type="radio" id="fold" name="players-action" value="fold">
+          </div>
+          <div class="box">
+            <label for="call">Call</label>
+            <input type="radio" id="call" name="players-action" value="call">
+          </div>
+          <div class="box">
+            <label for="check">Bet</label>
+            <input type="radio" id="bet" name="players-action" value="bet">
             <input type="range" name="player-bet-size" id="player-bet-size" />
-          </div>
-          <div class="box">
-            <button>Fold</button>
           </div>
         </div>
 
@@ -45,8 +56,10 @@
         <div class="bb-chip">BB</div>
         <div class="bn-chip">BN</div>
         <% for(let i = 0; i < data['number-of-players']; i++) { %> 
-              <div class="seat-<%= i+1 %>"></div> 
+              <div class="seat-<%= i+1 %>"  id="seat-<%= i+1 %>"></div> 
          <% } %>    
       </div>
     </div>
+    <script>const tableData = <%= data['number-of-players'] %>; </script>
+    <script src="../tableFunctions.js"></script>  
 <%- include('partials/footer'); -%>
