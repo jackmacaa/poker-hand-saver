@@ -1,0 +1,47 @@
+Poker Hand #RC1087720829: Hold'em No Limit  ($0.1/$0.25) - 2022/10/03 00:48:42
+Table 'RushAndCash606089' 6-max Seat #1 is the button
+Seat 1: 9b770926 ($29.3 in chips)
+Seat 2: bf27d425 ($55.19 in chips)
+Seat 3: Hero ($26.52 in chips)
+Seat 4: f58cb0dc ($26.01 in chips)
+Seat 5: 635d8b1d ($26.23 in chips)
+Seat 6: 92c1450d ($25 in chips)
+bf27d425: posts small blind $0.1
+Hero: posts big blind $0.25
+*** HOLE CARDS ***
+Dealt to 9b770926 
+Dealt to bf27d425 
+Dealt to Hero [5s Ah]
+Dealt to f58cb0dc 
+Dealt to 635d8b1d 
+Dealt to 92c1450d 
+f58cb0dc: folds
+635d8b1d: folds
+92c1450d: folds
+9b770926: raises $0.38 to $0.63
+bf27d425: folds
+Hero: calls $0.38
+*** FLOP *** [3d 7h Ac]
+Hero: checks
+9b770926: bets $0.77
+Hero: calls $0.77
+*** TURN *** [3d 7h Ac] [Tc]
+Hero: checks
+9b770926: bets $2.18
+Hero: calls $2.18
+*** RIVER *** [3d 7h Ac Tc] [9c]
+Hero: checks
+9b770926: checks
+Hero: shows [5s Ah] (Pair of Aces)
+9b770926: shows [Qh Ad] (Pair of Aces)
+*** SHOWDOWN ***
+9b770926 collected $6.9 from pot
+*** SUMMARY ***
+Total pot $7.26 | Rake $0.36 | Jackpot $0 | Bingo $0
+Board [3d 7h Ac Tc 9c]
+Seat 1: 9b770926 (button) showed [Qh Ad] and won ($6.9) with Pair of Aces
+Seat 2: bf27d425 (small blind) folded before Flop
+Seat 3: Hero (big blind) showed [5s Ah] and lost with Pair of Aces
+Seat 4: f58cb0dc folded before Flop (didn't bet)
+Seat 5: 635d8b1d folded before Flop (didn't bet)
+Seat 6: 92c1450d folded before Flop (didn't bet)
