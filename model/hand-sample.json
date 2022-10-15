@@ -2,8 +2,10 @@
   "name": "Casino cash game vs maniac",
   "id": 1,
   "noPlayers": 9,
-  "sb": 1,
-  "bb": 3,
+  "blinds": {
+    "sb": 1,
+    "bb": 3
+  },
   "players": [
     {
       "name": "jack",
