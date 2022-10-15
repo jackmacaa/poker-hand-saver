@@ -2,16 +2,16 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { run } from './js/model/Hand.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-import mongoose from 'mongoose';
 const app = express();
 const port = 3000;
-mongoose.connect('mongodb+srv://jackmac:OKZYNRdz2laoAlcF@poker-db.qh6fgad.mongodb.net/?retryWrites=true&w=majority', () => console.log('connnected'));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/views"));
 app.use(express.static(__dirname + "/js"));
 app.set("view engine", "ejs");
+run();
 app.get("/", (req, res) => {
     res.render('index');
 });
