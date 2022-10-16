@@ -1,8 +1,8 @@
 import express from "express";
 import bodyParser from "body-parser";
 import path from 'path';
-import {fileURLToPath} from 'url';
-import { run } from "./model/Hand.js";
+import { fileURLToPath } from 'url';
+import { createHand, getHands } from './model/db.js';
 
 const app = express();
 const port = 3000;
@@ -14,20 +14,20 @@ app.use(express.static(__dirname + "/views"));
 app.use(express.static(__dirname + "/js"));
 app.set("view engine", "ejs");
 
-run();
-
-app.get("/", (req, res) => {
-  res.render("index");
+app.get("/", async (req, res) => {
+    const result = await getHands();
+    res.render("index", {data: result});
 });
 
 app.get("/hand-save", (req, res) => {
-  res.render("hand-save");
+    res.render("hand-save");
 });
 
 app.get("/table", (req, res) => {
-  res.render("table", { data: req.query });
+    createHand(req.query)
+    res.render("table", {data: req.query} );
 });
 
 app.listen(port, () => {
-  console.log(`Server running http://localhost:${port}`);
+    console.log(`Server running http://localhost:${port}`);
 });

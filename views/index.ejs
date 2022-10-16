@@ -1,4 +1,12 @@
 <%- include('partials/header'); -%>
     <div class="home-page">Home</div>
-    <a href="/hand-save">Save Hand</a>
+    <a href="/hand-save">Save new hand</a>
+    <% for(hand of data) { %>
+        <p>
+            id:  <%= hand._id  %>
+            number of players:  <%= hand.numberOfPlayers  %>
+            blinds: sb: <%= hand.sb  %> bb: <%= hand.sb  %>
+            date created: <%= hand.dateCreated  %>
+        </p>
+    <% } %>
 <%- include('partials/footer'); -%>
