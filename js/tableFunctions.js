@@ -1,6 +1,6 @@
-const seatMap: any = {};
-const playerInputMap: any = {};
-const playerSaveMap: any = {};
+const seatMap = {};
+const playerInputMap = {};
+const playerSaveMap = {};
 
 for(let i = 1; i < 10; i++){
     seatMap[`seat_${i}`] = document.getElementById(`seat-${i}`);

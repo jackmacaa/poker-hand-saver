@@ -19,6 +19,7 @@ app.get("/", async (req, res) => {
     res.render("index", {data: result});
 });
 
+
 app.post("/:id", async (req, res) => {
     deleteHand(req.params.id)
     res.redirect("/");
