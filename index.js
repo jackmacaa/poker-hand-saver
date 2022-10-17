@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { createHand, getHands } from './model/db.js';
+import { createHand, getHands, deleteHand } from './model/db.js';
 
 const app = express();
 const port = 3000;
@@ -17,6 +17,11 @@ app.set("view engine", "ejs");
 app.get("/", async (req, res) => {
     const result = await getHands();
     res.render("index", {data: result});
+});
+
+app.post("/:id", async (req, res) => {
+    deleteHand(req.params.id)
+    res.redirect("/");
 });
 
 app.get("/hand-save", (req, res) => {
