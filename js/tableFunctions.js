@@ -1,8 +1,10 @@
 const seatMap = {};
 const playerInputMap = {};
 const playerSaveMap = {};
+const numberOfPlayersClass = document.getElementsByClassName('number-of-players')
+const playerCount = parseInt(numberOfPlayersClass[0]?.attributes.value.value);
 
-for(let i = 1; i < 10; i++){
+for(let i = 1; i < playerCount + 1; i++){
     seatMap[`seat_${i}`] = document.getElementById(`seat-${i}`);
     playerInputMap[`player_input_${i}`] = document.getElementById(`player-input-${i}`);
     playerSaveMap[`player_save_${i}`] = document.getElementById(`player-save-${i}`);

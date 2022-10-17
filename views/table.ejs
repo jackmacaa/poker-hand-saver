@@ -5,11 +5,9 @@
         <div class="table-felt"></div>
         <div class="table-rim"></div>
         <div class="table-info">
-          <div class="number-of-players">Number of Players: <%= data['number-of-players'] %></div>
+          <div class="number-of-players" value="<%= data['number-of-players'] %>">Number of Players: <%= data['number-of-players'] %></div>
           <div class="blinds">SB: <%= data.sb %> / BB: <%= data.bb %></div>
         </div>
-
-        
         <% for(let i = 0; i < data['number-of-players']; i++) { %> 
         <div class="player-input-<%= i+1 %> hidden" id="player-input-<%= i+1 %>">
             <div class="box"><h2>Player <%= i+1 %> </h2></div>
